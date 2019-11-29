@@ -11,5 +11,5 @@ console.log(example);
 /*
  * console.log(POKEMON);
  * console.log(LoL);
- * console.log(POTTER)
+ *console.log(POTTER)
 */

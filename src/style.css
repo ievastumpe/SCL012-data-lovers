@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/aa/2b/56/aa2b56a1621df913554e908ec09f58ac--hogwarts-library-harry-potter-hogwarts.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ #titulo {
+
+ 
+    font-family: Redressed;
+    color: #FFFFFF;
+    
+    margin-left: 300px;
+    font-size: 30px;
+
+
+}
