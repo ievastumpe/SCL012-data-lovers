@@ -205,7 +205,7 @@ diseño debe seguir los fundamentos de _visual design_.
 Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarios, y
 en base a los resultados, deberás iterar tus diseños. Cuéntanos
 qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
-mejoraste en tu propuesta final.
+mejoraste en tu propuesta final..
 
 ### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
