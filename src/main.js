@@ -1,15 +1,20 @@
-/**
- * import POKEMON from './data/pokemon/pokemon.js'
- * import LoL from './data/lol/lol.js'
- * import POTTER from './data/potter/potter.js'
- */
 
-import { example } from './data.js';
+ // import { example } from './data.js';
+//console.log(example);
+//console.log(POTTER) 
+import  POTTER  from './data/potter/potter.js';// importar los datos desde la carpeta potter.js
 
-console.log(example);
+import  {functionGryffindor}  from './data.js';// Importar la función qe está en data.js
+functionGryffindor(POTTER); // a la funcion example le agrega los datos de POTTER.
 
-/*
- * console.log(POKEMON);
- * console.log(LoL);
- *console.log(POTTER)
-*/
+import  {functionSlytherin}  from './data.js';
+functionSlytherin(POTTER);
+
+
+
+
+
+
+
+
+
