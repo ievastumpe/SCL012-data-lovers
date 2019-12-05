@@ -31,7 +31,33 @@ export const functionStudent = (POTTER) => {
 export const functionStaff = (POTTER) => {
   const filtrarStaff=POTTER.filter(POTTER=>(POTTER.hogwartsStaff===true));
   console.log(filtrarStaff);
-}
+};
+export const functionUnicorn = (POTTER) => {
+  const filtrarUnicorn = POTTER.filter(POTTER=>(POTTER.wand.core==="unicorn tail-hair"));
+  console.log(filtrarUnicorn);
 
+};
+export const functionDragon =(POTTER) => {
+  const filtrarDragon= POTTER.filter(POTTER => (POTTER.wand.core==="dragon heartstring"));
+  console.log(filtrarDragon);
+};
+export const functionPhoenix= (POTTER) => {
+  const filtrarPhoenix = POTTER.filter(POTTER=>(POTTER.wand.core==="phoenix feather"));
+  console.log(filtrarPhoenix);
+};
+ 
+export const functionPure= (POTTER) => {
+  const filtrarPure = POTTER.filter(POTTER=>(POTTER.ancestry==="pure-blood"));
+  console.log(filtrarPure);
+};
+ 
+export const functionHalf= (POTTER) => {
+  const filtrarHalf = POTTER.filter(POTTER=>(POTTER.ancestry==="half-blood"));
+  console.log(filtrarHalf);
+};
 
+export const functionMugle= (POTTER) => {
+  const filtrarMugle = POTTER.filter(POTTER=>(POTTER.ancestry==="muggleborn"));
+  console.log(filtrarMugle);
+};
 

@@ -21,10 +21,20 @@ functionStudent(POTTER);
 import  {functionStaff}  from './data.js';
 functionStaff (POTTER);
 
+import  {functionUnicorn}  from './data.js';
+functionUnicorn(POTTER);
 
+import  {functionDragon}  from './data.js';
+functionDragon(POTTER);
 
+import  {functionPhoenix}  from './data.js';
+functionPhoenix(POTTER);
 
+import  {functionPure}  from './data.js';
+functionPure(POTTER);
 
-console.log(POTTER);
+import  {functionHalf}  from './data.js';
+functionHalf(POTTER);
 
-
+import  {functionMugle}  from './data.js';
+functionMugle(POTTER);
