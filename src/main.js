@@ -14,4 +14,17 @@ import POTTER from './data/potter/potter.js'
 console.log(POTTER);
 
 
+let btnGriffindor = document.getElementById("btnGriffindor");
+btnGriffindor.addEventListener("click", mostrarGriffindor);
 
+function mostrarGriffindor() {
+  var img = document.createElement("img");
+  img.src = "photoHarry.jpg";
+  document.getElementById("personajes").innerHTML = "Hello Harry";
+}
+
+
+
+  //document.createElement("personajesCasaGriffindor");
+  //para.innerHTML = "CLICK ME";                  
+  //document.body.appendChild(para);  
