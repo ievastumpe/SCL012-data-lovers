@@ -14,7 +14,7 @@ juego se convierten en "Brujas o magos" y pueden:
   enemigos y en duelos mágicos.
 
 Para entender mejor qué necesidades complementarias a la app tienen los usuarios, 
-hicimos una rápida investigación (_research_) y estos son algunos de los hallazgos.
+hicimos una rápida investigación y estos son algunos de los hallazgos.
 
 - Los personajes de la saga tienen características que ayudan a conocer la historia 
   del mundo mágico (nombre, especie, casa, edad, rol etc.)
@@ -30,3 +30,5 @@ hicimos una rápida investigación (_research_) y estos son algunos de los halla
 - Los personajes de la saga pueden hacer diferentes hechizos y uno de los más famosos 
   es el _patronum_, para una bruja o mago es curioso saber si el suyo se parece a los de
   la saga.
+
+### 

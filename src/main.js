@@ -4,37 +4,58 @@
 import  POTTER  from './data/potter/potter.js';// importar los datos desde la carpeta potter.js
 
 import  {functionGryffindor,}  from './data.js';// Importar la función qe está en data.js
-functionGryffindor(POTTER); // a la funcion example le agrega los datos de POTTER.
+functionGryffindor(POTTER); // a la funcion  le agrega los datos de POTTER.
 
-import  {functionSlytherin}  from './data.js';
+
+
+
+//const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
+
+
+
+
+
+
+
+
+
+
+import  {functionSlytherin}  from './data.js';// Importar la función qe está en data.js
 functionSlytherin(POTTER);
 
-import  {functionRavenclaw}  from './data.js';
+import  {functionRavenclaw}  from './data.js';// Importar la función qe está en data.js
 functionRavenclaw(POTTER);
 
-import  {functionHufflepuff}  from './data.js';
+import  {functionHufflepuff}  from './data.js';// Importar la función qe está en data.js
 functionHufflepuff(POTTER);
 
-import  {functionStudent}  from './data.js';
+import  {functionStudent}  from './data.js';// Importar la función qe está en data.js
 functionStudent(POTTER);
 
-import  {functionStaff}  from './data.js';
+import  {functionStaff}  from './data.js';// Importar la función qe está en data.js
 functionStaff (POTTER);
 
-import  {functionUnicorn}  from './data.js';
+import  {functionUnicorn}  from './data.js';// Importar la función qe está en data.js
 functionUnicorn(POTTER);
 
-import  {functionDragon}  from './data.js';
+import  {functionDragon}  from './data.js';// Importar la función qe está en data.js
 functionDragon(POTTER);
 
-import  {functionPhoenix}  from './data.js';
+import  {functionPhoenix}  from './data.js';// Importar la función qe está en data.js
 functionPhoenix(POTTER);
 
-import  {functionPure}  from './data.js';
+import  {functionPure}  from './data.js';// Importar la función qe está en data.js
 functionPure(POTTER);
 
-import  {functionHalf}  from './data.js';
+import  {functionHalf}  from './data.js';// Importar la función qe está en data.js
 functionHalf(POTTER);
 
-import  {functionMugle}  from './data.js';
+import  {functionMugle}  from './data.js';// Importar la función qe está en data.js
 functionMugle(POTTER);
+
+
+
+
+
+
+

@@ -28,4 +28,11 @@ body {
     font-size: 200%;
 }
 
+#padre {
+    display: flex;
 
+    background-color: burlywood;
+    width: 500%;
+    height: 500%;
+
+}
