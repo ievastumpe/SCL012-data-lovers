@@ -12,9 +12,10 @@ body {
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
+overflow: hidden;
+background-color:  rgba(243, 215, 190, 0.7);
+justify-content: space-around;
+}
   
   .navbar a {
     float: left;
@@ -73,7 +74,11 @@ body {
   }
 
   .container {
-    overflow: hidden;
+    width: auto;
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
   }
 
   .filterDiv {

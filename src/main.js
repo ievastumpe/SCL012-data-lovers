@@ -22,27 +22,16 @@ import  {functionStaff}  from './data.js';
 functionStaff (POTTER);
 
 
-
-
-
 console.log(POTTER);
 
-const nombres = document.querySelectorAll('name');
-console.log(nombres);
 
-let btnGriffindor = document.getElementById("btnGriffindor");
-btnGriffindor.addEventListener("click", mostrarGriffindor);
-
-function mostrarGriffindor() {
-  var img = document.createElement("img");
-  img.src = "photoHarry.jpg";
-  document.getElementById("container").innerHTML = "Hello Harry";
-
-  console.log(mostrarGriffindor);
-}
+  var fotosPersonajes = document.createElement("images");
 
 
+for(let i=0; i<POTTER.length; i++){
+  const namesOnly = POTTER.map(POTTER => `${POTTER.name}`);
+  container.innerHTML = namesOnly;
 
-  //document.createElement("personajesCasaGriffindor");
-  //para.innerHTML = "CLICK ME";                  
-  //document.body.appendChild(para);  
+  console.log(namesOnly);
+};
+    
