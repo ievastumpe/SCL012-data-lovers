@@ -27,6 +27,8 @@ functionStaff (POTTER);
 
 console.log(POTTER);
 
+const nombres = document.querySelectorAll('name');
+console.log(nombres);
 
 let btnGriffindor = document.getElementById("btnGriffindor");
 btnGriffindor.addEventListener("click", mostrarGriffindor);
@@ -34,7 +36,9 @@ btnGriffindor.addEventListener("click", mostrarGriffindor);
 function mostrarGriffindor() {
   var img = document.createElement("img");
   img.src = "photoHarry.jpg";
-  document.getElementById("personajes").innerHTML = "Hello Harry";
+  document.getElementById("container").innerHTML = "Hello Harry";
+
+  console.log(mostrarGriffindor);
 }
 
 
