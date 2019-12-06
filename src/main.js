@@ -3,25 +3,16 @@
 //console.log(POTTER) 
 import  POTTER  from './data/potter/potter.js';// importar los datos desde la carpeta potter.js
 
-import  {functionGryffindor,}  from './data.js';// Importar la función qe está en data.js
+import  {functionGryffindor}  from './data.js';// Importar la función qe está en data.js
 functionGryffindor(POTTER); // a la funcion  le agrega los datos de POTTER.
 
-
-
-
-//const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
-
-
-
-
-
-
-
-
+let botonHouse= document.getElementById("house")
 
 
 import  {functionSlytherin}  from './data.js';// Importar la función qe está en data.js
 functionSlytherin(POTTER);
+
+
 
 import  {functionRavenclaw}  from './data.js';// Importar la función qe está en data.js
 functionRavenclaw(POTTER);
