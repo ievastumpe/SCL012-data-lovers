@@ -12,8 +12,6 @@ let botonHouse= document.getElementById("house")
 import  {functionSlytherin}  from './data.js';// Importar la función qe está en data.js
 functionSlytherin(POTTER);
 
-
-
 import  {functionRavenclaw}  from './data.js';// Importar la función qe está en data.js
 functionRavenclaw(POTTER);
 
@@ -28,6 +26,7 @@ functionStaff (POTTER);
 
 import  {functionUnicorn}  from './data.js';// Importar la función qe está en data.js
 functionUnicorn(POTTER);
+
 
 import  {functionDragon}  from './data.js';// Importar la función qe está en data.js
 functionDragon(POTTER);
@@ -54,13 +53,6 @@ console.log(functionGryffindor(POTTER));
 });
 //mostrar todos los datos en pantalla
 
-
-
-
-
-
-
-
 //const mostrarJugadores = POTTER.map(POTTER => `${POTTER.name} ${POTTER.house} ${POTTER.image}`);
 
 //const nombres = document.querySelectorAll('name');
@@ -77,8 +69,4 @@ console.log(functionGryffindor(POTTER));
  // console.log(mostrarGriffindor);
 //}
 
-
-
-  //document.createElement("personajesCasaGriffindor");
-  //para.innerHTML = "CLICK ME";                  
-  //document.body.appendChild(para);  
+console.log(POTTER);

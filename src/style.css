@@ -19,11 +19,14 @@ body {
     border: thistle;
     display: flex;
     justify-content: space-between;
-    justify-content: space-around;
-   
-    
+    justify-content: space-around;    
   }
-  
+
+overflow: hidden;
+background-color:  rgba(243, 215, 190, 0.7);
+justify-content: space-around;
+}
+
   .navbar a {
     float: left;
     font-size: 16px;
@@ -88,6 +91,9 @@ body {
     width: auto;
     background-color: thistle;
     display: inline-block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
   }
 
   .filterDiv {
