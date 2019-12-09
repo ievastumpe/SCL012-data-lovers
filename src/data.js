@@ -1,13 +1,18 @@
 // Funcion que muestra los jugadores por casa(Gryffindor)
 export const functionGryffindor = (POTTER) => { 
   
- const filtrarGryffindor = POTTER.filter(POTTER => (POTTER.house=== "Gryffindor" ));
-  
- 
+ //const filtrarGryffindor = POTTER.filter(POTTER => (POTTER.house=== "Gryffindor" ));
+ for(let i=0; i < POTTER.length; i++){
+
+  const filtrarGryffindor = POTTER.filter(POTTER => (POTTER.house=== "Gryffindor" ));
   return filtrarGryffindor;
 };
+ }
+ 
+  
 // Funcion que muestra los jugadores por casa(Slytherin)
 export const functionSlytherin = (POTTER) => {
+   
 
 const filtrarSlytherin = POTTER.filter(POTTER => (POTTER.house=== "Slytherin" ));
 console.log(filtrarSlytherin);

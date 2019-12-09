@@ -45,8 +45,40 @@ import  {functionMugle}  from './data.js';// Importar la función qe está en da
 functionMugle(POTTER);
 
 
+let btnGriffindor = document.getElementById("btnGriffindor");
+btnGriffindor.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+ 
+container.innerHTML += `<div> </div>`
+console.log(functionGryffindor(POTTER));
+});
+//mostrar todos los datos en pantalla
 
 
 
 
 
+
+
+
+//const mostrarJugadores = POTTER.map(POTTER => `${POTTER.name} ${POTTER.house} ${POTTER.image}`);
+
+//const nombres = document.querySelectorAll('name');
+//console.log(nombres);
+
+//let btnGriffindor = document.getElementById("btnGriffindor");
+//btnGriffindor.addEventListener("click", mostrarGriffindor);
+
+//function mostrarGriffindor() {
+  //var img = document.createElement("img");
+  //img.src = POTTER.image;
+  //document.getElementById("container").innerHTML = "Hello Harry";
+
+ // console.log(mostrarGriffindor);
+//}
+
+
+
+  //document.createElement("personajesCasaGriffindor");
+  //para.innerHTML = "CLICK ME";                  
+  //document.body.appendChild(para);  
