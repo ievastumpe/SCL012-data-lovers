@@ -22,6 +22,7 @@ import  {functionStudent}  from './data.js';// Importar la función qe está en 
 functionStudent(POTTER);
 
 import  {functionStaff}  from './data.js';// Importar la función qe está en data.js
+
 functionStaff (POTTER);
 
 import  {functionUnicorn}  from './data.js';// Importar la función qe está en data.js
@@ -58,6 +59,7 @@ console.log(functionGryffindor(POTTER));
 //const nombres = document.querySelectorAll('name');
 //console.log(nombres);
 
+
 //let btnGriffindor = document.getElementById("btnGriffindor");
 //btnGriffindor.addEventListener("click", mostrarGriffindor);
 
@@ -70,3 +72,20 @@ console.log(functionGryffindor(POTTER));
 //}
 
 console.log(POTTER);
+=======
+for (let i=0; i<POTTER.length; i++){
+  let newBtn = document.createElement("button");
+  newBtn.setAttribute("class", "indPtr");
+  let newImg = document.createElement("img");
+  let imgPotter = (POTTER[i].image);
+  newImg.setAttribute('src', imgPotter);
+   
+  newBtn.appendChild(newImg);
+  let nameP = document.createElement("p");
+  let namePotter = document.createTextNode(POTTER[i].name);
+  nameP.appendChild(namePotter);
+  newBtn.appendChild(nameP);
+
+  container.appendChild(newBtn);
+}
+
