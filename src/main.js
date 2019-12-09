@@ -19,19 +19,25 @@ import  {functionStudent}  from './data.js';
 functionStudent(POTTER);
 
 import  {functionStaff}  from './data.js';
+
 functionStaff (POTTER);
 
 
 console.log(POTTER);
 
 
-  var fotosPersonajes = document.createElement("images");
+for (let i=0; i<POTTER.length; i++){
+  let newBtn = document.createElement("button");
+  newBtn.setAttribute("class", "indPtr");
+  let newImg = document.createElement("img");
+  let imgPotter = (POTTER[i].image);
+  newImg.setAttribute('src', imgPotter);
+   
+  newBtn.appendChild(newImg);
+  let nameP = document.createElement("p");
+  let namePotter = document.createTextNode(POTTER[i].name);
+  nameP.appendChild(namePotter);
+  newBtn.appendChild(nameP);
 
-
-for(let i=0; i<POTTER.length; i++){
-  const namesOnly = POTTER.map(POTTER => `${POTTER.name}`);
-  container.innerHTML = namesOnly;
-
-  console.log(namesOnly);
-};
-    
+  container.appendChild(newBtn);
+}
