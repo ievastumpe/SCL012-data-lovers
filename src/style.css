@@ -101,17 +101,21 @@ body {
   }
 
 .container {
-    border: 1px white;
-    display: flex;
-    flex-flow: row wrap;
-    align-content: left;
-    justify-content: space-around;
-    justify-content: space-between;
+  border: 1px white;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-flow: wrap;
+  align-content: space-around;
 }
 
 .caja{
-  border: 1px;
+ 
+  border: 10px;
   color: white;
+  
+
+  
  }
 
   .indPtr {
@@ -122,12 +126,8 @@ body {
 
   .imagenes{
     display: flex;
-    flex-flow: column wrap;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: column;
-    height: 25;
-    width: 25;
+    height: 50%;
+    width: 50%;
     inline-size: auto;
     border: rgb(247, 235, 235);
   }
@@ -146,5 +146,6 @@ body {
     .descripcion{
       display: flex;
       color: white;
+      align-items: stretch;
       }
     
