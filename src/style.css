@@ -22,10 +22,7 @@ body {
     justify-content: space-around;    
   }
 
-overflow: hidden;
-background-color:  rgba(243, 215, 190, 0.7);
-justify-content: space-around;
-}
+
 
   .navbar a {
     float: left;
@@ -112,19 +109,20 @@ justify-content: space-around;
 .show {
     display: block;
   }
-
-
-  .indPtr {
+  .descripcion{
     display: flex;
-    height: 200px;
-    width: 200px;
-    flex-wrap: wrap
-  }
+    color: white
 
-  .img {
+
+
+  }
+  .imagenes{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: ;
+    width: 10%;
+    height: 10%;
+    ;
   }
-
+  .caja{
+   border: 1px white;
+  }
+  
