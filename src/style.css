@@ -1,101 +1,87 @@
 body {
-    background-image: url("http://images2.fanpop.com/images/photos/7600000/Hogwarts-Castle-hogwarts-7684945-1024-768.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url("http://images2.fanpop.com/images/photos/7600000/Hogwarts-Castle-hogwarts-7684945-1024-768.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
- #titulo {
-   display: flex;
-   justify-content: center;
-    font-family: Redressed;
-    color: #FFFFFF;
-    margin-left: 0px;
-    font-size: 30px;
+#titulo {
+ display: flex;
+ justify-content: center;
+  font-family: Redressed;
+  color: #FFFFFF;
+  margin-left: 0px;
+  font-size: 30px;
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: transparent;
-    border: thistle;
-    display: flex;
-    justify-content: space-between;
-    justify-content: space-around;    
-  }
-
-overflow: hidden;
-background-color:  rgba(243, 215, 190, 0.7);
-justify-content: space-around;
+  overflow: hidden;
+  background-color: transparent;
+  border: thistle;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
 }
 
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color:transparent;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-   .dropdown {
-    float: left;
-    overflow: hidden;
-    justify-content: center;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 30px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    cursor: pointer;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(16, 16, 41);
-  }
-  
-  .dropdown-content {
-    display: none;
-    
-    position: absolute;
-    background-color: transparent;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content button {
-    float: none;
-    color: rgb(247, 235, 235);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
-    font-size: 20px;
-    border: transparent;
-  }
-  
-  .dropdown-content button:hover {
-    background-color: rgb(31, 31, 34);
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color:transparent;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ .dropdown {
+  float: left;
+  overflow: hidden;
+  justify-content: center;
+}
 
-  .container {
+.dropdown .dropbtn {
+  font-size: 30px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+}
 
-    width: auto;
-    background-color: thistle;
-    display: inline-block;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap
-  }
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(16, 16, 41);
+}
+
+.dropdown-content {
+  display: none;
+  
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  float: none;
+  color: rgb(247, 235, 235);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  font-size: 20px;
+  border: transparent;
+}
+
+.dropdown-content button:hover {
+  background-color: rgb(31, 31, 34);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
   .filterDiv {
     float: left;
@@ -113,18 +99,32 @@ justify-content: space-around;
     display: block;
   }
 
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+
+  }
 
   .indPtr {
     display: flex;
-    height: 200px;
-    width: 200px;
-    flex-wrap: wrap
+    flex-flow: column wrap;
+    align-items: stretch;
   }
 
-  .img {
+  .imgPotter {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: ;
-  }
+    align-items: column;
+    height: 25;
+    width: 25;
+    inline-size: auto;
+    }
+
+    img{
+      max-width: 220px;
+      max-height: 220px;
+    }
 

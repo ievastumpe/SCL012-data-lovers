@@ -72,13 +72,16 @@ console.log(functionGryffindor(POTTER));
 //}
 
 console.log(POTTER);
-=======
+
+
+
 for (let i=0; i<POTTER.length; i++){
   let newBtn = document.createElement("button");
   newBtn.setAttribute("class", "indPtr");
   let newImg = document.createElement("img");
   let imgPotter = (POTTER[i].image);
   newImg.setAttribute('src', imgPotter);
+  newImg.setAttribute("class", "imgPotter");
    
   newBtn.appendChild(newImg);
   let nameP = document.createElement("p");
@@ -88,4 +91,3 @@ for (let i=0; i<POTTER.length; i++){
 
   container.appendChild(newBtn);
 }
-
