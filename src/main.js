@@ -132,6 +132,8 @@ for(let i= 0;POTTER.length;i++){
   container.innerHTML += `<div class="caja">
   <img src = ${POTTER[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${(POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${(POTTER)[i].patronus}
   <li class= "descripcion">Specie: ${(POTTER)[i].species}
   <li class= "descripcion">House: ${(POTTER)[i].house}
   
@@ -353,35 +355,6 @@ for(let i= 0;POTTER.length;i++){
  }
 
 });
-
-
-
-
-
-
-
-
-
-
-
-//const mostrarJugadores = POTTER.map(POTTER => `${POTTER.name} ${POTTER.house}`);
-
-//const nombres = document.querySelectorAll('name');
-//console.log(nombres);
-
-
-//let btnGriffindor = document.getElementById("btnGriffindor");
-//btnGriffindor.addEventListener("click", mostrarGriffindor);
-
-//function mostrarGriffindor() {
-  //var img = document.createElement("img");
-  //img.src = POTTER.image;
-  //document.getElementById("container").innerHTML = "Hello Harry";
-
- // console.log(mostrarGriffindor);
-//}
-
-console.log(POTTER);
 
 for (let i=0; i<POTTER.length; i++){
   let newBtn = document.createElement("button");
