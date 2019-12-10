@@ -73,7 +73,8 @@ container.innerHTML = " ";
   
 for(let i= 0;POTTER.length;i++){
  
-  container.innerHTML += `<div class="caja">
+  container.innerHTML = `<div class="caja">
+
   <img src = ${functionHufflepuff(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionHufflepuff(POTTER)[i].name} 
   <li class= "descripcion">Specie: ${functionHufflepuff(POTTER)[i].species}
@@ -342,4 +343,3 @@ for(let i= 0;POTTER.length;i++){
   </div>`
 
  }
-
