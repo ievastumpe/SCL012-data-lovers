@@ -98,6 +98,9 @@ body {
 .show {
     display: block;
   }
+  .descripcion{
+    display: flex;
+    color: white
 
   .container {
     display: flex;
