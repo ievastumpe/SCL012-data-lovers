@@ -112,6 +112,23 @@ for(let i= 0;POTTER.length;i++){
 
 });
 
+//boton mostrar todos
+let btnTodos = document.getElementById("todos");
+btnTodos.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+container.innerHTML = " "
+
+for(let i= 0;POTTER.length;i++){
+  container.innerHTML += `<div class="caja">
+  <img src = ${POTTER[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${(POTTER)[i].species}
+  <li class= "descripcion">House: ${(POTTER)[i].house}
+  
+  </div>`
+
+ }
+});
 
 //boton filtrar por Slytherin
 let btnSlytherin = document.getElementById("slytherin");
@@ -150,20 +167,3 @@ for (let i=0; i<POTTER.length; i++){
   container.appendChild(newBtn);
 }
 
-//boton mostrar todos
-let btnTodos = document.getElementById("Todos");
-btnTodos.addEventListener("click", ()=> {
-let container=document.getElementById("container");
-container.innerHTML = " "
-
-for(let i= 0;POTTER.length;i++){
-  container.innerHTML += `<div class="caja">
-  <img src = ${POTTER[i].image} class= "imagenes">
-  <li class="descripcion" >Name: ${(POTTER)[i].name} </br>
-  <li class= "descripcion">Specie: ${(POTTER)[i].species}
-  <li class= "descripcion">House: ${(POTTER)[i].house}
-  
-  </div>`
-
- }
-});
