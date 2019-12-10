@@ -131,3 +131,14 @@ body {
       max-height: 220px;
     }
 
+  }
+  .imagenes{
+    display: flex;
+    width: 10%;
+    height: 10%;
+    ;
+  }
+  .caja{
+   border: 1px white;
+  }
+
