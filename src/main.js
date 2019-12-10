@@ -45,14 +45,88 @@ import  {functionMugle}  from './data.js';// Importar la función qe está en da
 functionMugle(POTTER);
 
 
+
+
+//boton filtrar por gryffindor
 let btnGriffindor = document.getElementById("btnGriffindor");
 btnGriffindor.addEventListener("click", ()=> {
 let container=document.getElementById("container");
  
-container.innerHTML += `<div> </div>`
-console.log(functionGryffindor(POTTER));
+for(let i= 0;POTTER.length;i++){
+ 
+
+  container.innerHTML += `<div class="caja">
+  <img src = ${functionGryffindor(POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionGryffindor(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${functionGryffindor(POTTER)[i].species}
+  <li class= "descripcion">House: ${functionGryffindor(POTTER)[i].house}
+  
+  </div>`
+  
+
+ }
+
 });
-//mostrar todos los datos en pantalla
+//boton filtrar por Hufflepuff 
+let btnHufflepuff = document.getElementById("hufflepuff");
+btnHufflepuff.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+ 
+for(let i= 0;POTTER.length;i++){
+ 
+
+  container.innerHTML += `<div class="caja">
+  <img src = ${functionHufflepuff(POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionHufflepuff(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${functionHufflepuff(POTTER)[i].species}
+  <li class= "descripcion">House: ${functionHufflepuff(POTTER)[i].house}
+  
+  </div>`
+
+ }
+
+});
+
+//boton filtrar por Ravenclaw
+let btnRavenclaw = document.getElementById("ravenclaw");
+btnRavenclaw.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+ 
+for(let i= 0;POTTER.length;i++){
+ 
+
+  container.innerHTML += `<div class="caja">
+  <img src = ${functionRavenclaw(POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionRavenclaw(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${functionRavenclaw(POTTER)[i].species}
+  <li class= "descripcion">House: ${functionRavenclaw(POTTER)[i].house}
+  
+  </div>`
+
+ }
+
+});
+
+
+//boton filtrar por Slytherin
+let btnSlytherin = document.getElementById("slytherin");
+btnSlytherin.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+ 
+for(let i= 0;POTTER.length;i++){
+ 
+
+  container.innerHTML += `<div class="caja">
+  <img src = ${functionSlytherin(POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionSlytherin(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${functionSlytherin(POTTER)[i].species}
+  <li class= "descripcion">House: ${functionSlytherin(POTTER)[i].house}
+  
+  </div>`
+
+ }
+
+});
 
 
 
@@ -61,7 +135,9 @@ console.log(functionGryffindor(POTTER));
 
 
 
-//const mostrarJugadores = POTTER.map(POTTER => `${POTTER.name} ${POTTER.house} ${POTTER.image}`);
+
+
+//const mostrarJugadores = POTTER.map(POTTER => `${POTTER.name} ${POTTER.house}`);
 
 //const nombres = document.querySelectorAll('name');
 //console.log(nombres);
