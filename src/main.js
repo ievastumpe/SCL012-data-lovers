@@ -51,8 +51,7 @@ functionMugle(POTTER);
 let btnGriffindor = document.getElementById("btnGriffindor");
 btnGriffindor.addEventListener("click", ()=> {
 let container=document.getElementById("container");
-container.innerHTML = " ";
- 
+container.innerHTML = " "
  
 for(let i= 0;POTTER.length;i++){
  
@@ -93,6 +92,10 @@ for(let i= 0;POTTER.length;i++){
 
  }
 
+
+
+ 
+
 });
 
 //boton filtrar por Ravenclaw
@@ -119,6 +122,23 @@ for(let i= 0;POTTER.length;i++){
 
 });
 
+//boton mostrar todos
+let btnTodos = document.getElementById("todos");
+btnTodos.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+container.innerHTML = " "
+
+for(let i= 0;POTTER.length;i++){
+  container.innerHTML += `<div class="caja">
+  <img src = ${POTTER[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${(POTTER)[i].species}
+  <li class= "descripcion">House: ${(POTTER)[i].house}
+  
+  </div>`
+
+ }
+});
 
 //boton filtrar por Slytherin
 let btnSlytherin = document.getElementById("slytherin");
@@ -362,3 +382,21 @@ for(let i= 0;POTTER.length;i++){
 //}
 
 console.log(POTTER);
+
+for (let i=0; i<POTTER.length; i++){
+  let newBtn = document.createElement("button");
+  newBtn.setAttribute("class", "indPtr");
+  let newImg = document.createElement("img");
+  let imgPotter = (POTTER[i].image);
+  newImg.setAttribute('src', imgPotter);
+  newImg.setAttribute("class", "imgPotter");
+   
+  newBtn.appendChild(newImg);
+  let nameP = document.createElement("p");
+  let namePotter = document.createTextNode(POTTER[i].name);
+  nameP.appendChild(namePotter);
+  newBtn.appendChild(nameP);
+
+  container.appendChild(newBtn);
+}
+
