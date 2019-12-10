@@ -61,6 +61,8 @@ for(let i= 0;POTTER.length;i++){
   <img src = ${functionGryffindor(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionGryffindor(POTTER)[i].name} </br>
   <li class= "descripcion">Specie: ${functionGryffindor(POTTER)[i].species}
+  <li class= "descripcion">Core: ${functionGryffindor(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionGryffindor(POTTER)[i].patronus}
   <li class= "descripcion">House: ${functionGryffindor(POTTER)[i].house}
   
   </div>`
@@ -82,6 +84,8 @@ for(let i= 0;POTTER.length;i++){
   container.innerHTML += `<div class="caja">
   <img src = ${functionHufflepuff(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionHufflepuff(POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${functionHufflepuff(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionHufflepuff(POTTER)[i].patronus}
   <li class= "descripcion">Specie: ${functionHufflepuff(POTTER)[i].species}
   <li class= "descripcion">House: ${functionHufflepuff(POTTER)[i].house}
   
@@ -104,6 +108,8 @@ for(let i= 0;POTTER.length;i++){
   container.innerHTML += `<div class="caja">
   <img src = ${functionRavenclaw(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionRavenclaw(POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${functionRavenclaw(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionRavenclaw(POTTER)[i].patronus}
   <li class= "descripcion">Specie: ${functionRavenclaw(POTTER)[i].species}
   <li class= "descripcion">House: ${functionRavenclaw(POTTER)[i].house}
   
@@ -127,6 +133,8 @@ for(let i= 0;POTTER.length;i++){
   container.innerHTML += `<div class="caja">
   <img src = ${functionSlytherin(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionSlytherin(POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${functionSlytherin(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionSlytherin(POTTER)[i].patronus}
   <li class= "descripcion">Specie: ${functionSlytherin(POTTER)[i].species}
   <li class= "descripcion">House: ${functionSlytherin(POTTER)[i].house}
   
@@ -149,6 +157,8 @@ for(let i= 0;POTTER.length;i++){
   container.innerHTML += `<div class="caja">
   <img src = ${functionStudent(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionStudent(POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${functionStudent(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionStudent(POTTER)[i].patronus}
   <li class= "descripcion">Specie: ${functionStudent(POTTER)[i].species}
   <li class= "descripcion">House: ${functionStudent(POTTER)[i].house}
   
@@ -171,6 +181,8 @@ for(let i= 0;POTTER.length;i++){
   container.innerHTML += `<div class="caja">
   <img src = ${functionStaff (POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionStaff (POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${functionStaff (POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionStaff (POTTER)[i].patronus}
   <li class= "descripcion">Specie: ${functionStaff (POTTER)[i].species}
   <li class= "descripcion">House: ${functionStaff (POTTER)[i].house}
   
@@ -193,6 +205,8 @@ for(let i= 0;POTTER.length;i++){
   container.innerHTML += `<div class="caja">
   <img src = ${functionUnicorn(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionUnicorn(POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${functionUnicorn(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionUnicorn(POTTER)[i].patronus}
   <li class= "descripcion">Specie: ${functionUnicorn(POTTER)[i].species}
   <li class= "descripcion">House: ${functionUnicorn(POTTER)[i].house}
   
@@ -214,6 +228,8 @@ for(let i= 0;POTTER.length;i++){
   container.innerHTML += `<div class="caja">
   <img src = ${functionDragon(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionDragon(POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${functionDragon(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionDragon(POTTER)[i].patronus}
   <li class= "descripcion">Specie: ${functionDragon(POTTER)[i].species}
   <li class= "descripcion">House: ${functionDragon(POTTER)[i].house}
   
@@ -236,6 +252,8 @@ for(let i= 0;POTTER.length;i++){
   container.innerHTML += `<div class="caja">
   <img src = ${functionPhoenix(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionPhoenix(POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${functionPhoenix(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionPhoenix(POTTER)[i].patronus}
   <li class= "descripcion">Specie: ${functionPhoenix(POTTER)[i].species}
   <li class= "descripcion">House: ${functionPhoenix(POTTER)[i].house}
   
@@ -258,6 +276,8 @@ for(let i= 0;POTTER.length;i++){
   container.innerHTML += `<div class="caja">
   <img src = ${functionPure(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionPure(POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${functionPure(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionPure(POTTER)[i].patronus}
   <li class= "descripcion">Specie: ${functionPure(POTTER)[i].species}
   <li class= "descripcion">House: ${functionPure(POTTER)[i].house}
   
@@ -280,6 +300,8 @@ for(let i= 0;POTTER.length;i++){
   container.innerHTML += `<div class="caja">
   <img src = ${functionHalf(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionHalf(POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${functionHalf(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionHalf(POTTER)[i].patronus}
   <li class= "descripcion">Specie: ${functionHalf(POTTER)[i].species}
   <li class= "descripcion">House: ${functionHalf(POTTER)[i].house}
   
@@ -301,6 +323,8 @@ for(let i= 0;POTTER.length;i++){
   container.innerHTML += `<div class="caja">
   <img src = ${functionMugle(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionMugle(POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${functionMugle(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionMugle(POTTER)[i].patronus}
   <li class= "descripcion">Specie: ${functionMugle(POTTER)[i].species}
   <li class= "descripcion">House: ${functionMugle(POTTER)[i].house}
   
