@@ -12,8 +12,6 @@ let botonHouse= document.getElementById("house")
 import  {functionSlytherin}  from './data.js';// Importar la función qe está en data.js
 functionSlytherin(POTTER);
 
-
-
 import  {functionRavenclaw}  from './data.js';// Importar la función qe está en data.js
 functionRavenclaw(POTTER);
 
@@ -24,10 +22,12 @@ import  {functionStudent}  from './data.js';// Importar la función qe está en 
 functionStudent(POTTER);
 
 import  {functionStaff}  from './data.js';// Importar la función qe está en data.js
+
 functionStaff (POTTER);
 
 import  {functionUnicorn}  from './data.js';// Importar la función qe está en data.js
 functionUnicorn(POTTER);
+
 
 import  {functionDragon}  from './data.js';// Importar la función qe está en data.js
 functionDragon(POTTER);
@@ -142,6 +142,7 @@ for(let i= 0;POTTER.length;i++){
 //const nombres = document.querySelectorAll('name');
 //console.log(nombres);
 
+
 //let btnGriffindor = document.getElementById("btnGriffindor");
 //btnGriffindor.addEventListener("click", mostrarGriffindor);
 
@@ -153,8 +154,21 @@ for(let i= 0;POTTER.length;i++){
  // console.log(mostrarGriffindor);
 //}
 
+console.log(POTTER);
 
+for (let i=0; i<POTTER.length; i++){
+  let newBtn = document.createElement("button");
+  newBtn.setAttribute("class", "indPtr");
+  let newImg = document.createElement("img");
+  let imgPotter = (POTTER[i].image);
+  newImg.setAttribute('src', imgPotter);
+   
+  newBtn.appendChild(newImg);
+  let nameP = document.createElement("p");
+  let namePotter = document.createTextNode(POTTER[i].name);
+  nameP.appendChild(namePotter);
+  newBtn.appendChild(nameP);
 
-  //document.createElement("personajesCasaGriffindor");
-  //para.innerHTML = "CLICK ME";                  
-  //document.body.appendChild(para);  
+  container.appendChild(newBtn);
+}
+
