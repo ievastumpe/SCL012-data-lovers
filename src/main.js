@@ -51,7 +51,12 @@ functionMugle(POTTER);
 let btnGriffindor = document.getElementById("btnGriffindor");
 btnGriffindor.addEventListener("click", ()=> {
 let container=document.getElementById("container");
+<<<<<<< HEAD
 container.innerHTML = " "
+=======
+container.innerHTML = " ";
+ 
+>>>>>>> d271253b9b2e6185d1a3945d75e0f70c9ecbcd18
  
 for(let i= 0;POTTER.length;i++){
  
@@ -72,6 +77,8 @@ for(let i= 0;POTTER.length;i++){
 let btnHufflepuff = document.getElementById("hufflepuff");
 btnHufflepuff.addEventListener("click", ()=> {
 let container=document.getElementById("container");
+container.innerHTML = " ";
+ 
  
 for(let i= 0;POTTER.length;i++){
  
@@ -96,6 +103,8 @@ for(let i= 0;POTTER.length;i++){
 let btnRavenclaw = document.getElementById("ravenclaw");
 btnRavenclaw.addEventListener("click", ()=> {
 let container=document.getElementById("container");
+container.innerHTML = " ";
+ 
  
 for(let i= 0;POTTER.length;i++){
  
@@ -134,6 +143,8 @@ for(let i= 0;POTTER.length;i++){
 let btnSlytherin = document.getElementById("slytherin");
 btnSlytherin.addEventListener("click", ()=> {
 let container=document.getElementById("container");
+container.innerHTML = " ";
+ 
  
 for(let i= 0;POTTER.length;i++){
  
@@ -149,6 +160,209 @@ for(let i= 0;POTTER.length;i++){
  }
 
 });
+
+//boton filtrar por student
+let btnStudent= document.getElementById("student");
+btnStudent.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+container.innerHTML = " ";
+ 
+ 
+for(let i= 0;POTTER.length;i++){
+ 
+
+  container.innerHTML += `<div class="caja">
+  <img src = ${functionStudent(POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionStudent(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${functionStudent(POTTER)[i].species}
+  <li class= "descripcion">House: ${functionStudent(POTTER)[i].house}
+  
+  </div>`
+
+ }
+
+});
+
+//boton filtrar por staff
+let btnStaff= document.getElementById("staff");
+btnStaff.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+container.innerHTML = " ";
+ 
+ 
+for(let i= 0;POTTER.length;i++){
+ 
+
+  container.innerHTML += `<div class="caja">
+  <img src = ${functionStaff (POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionStaff (POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${functionStaff (POTTER)[i].species}
+  <li class= "descripcion">House: ${functionStaff (POTTER)[i].house}
+  
+  </div>`
+
+ }
+
+});
+
+//boton filtrar por Unicorn
+let btnUnicorn= document.getElementById("unicorn");
+btnUnicorn.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+container.innerHTML = " ";
+ 
+ 
+for(let i= 0;POTTER.length;i++){
+ 
+
+  container.innerHTML += `<div class="caja">
+  <img src = ${functionUnicorn(POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionUnicorn(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${functionUnicorn(POTTER)[i].species}
+  <li class= "descripcion">House: ${functionUnicorn(POTTER)[i].house}
+  
+  </div>`
+
+ }
+
+});
+//boton filtrar por Dragon Heartstring
+let btnDragon= document.getElementById("dragon");
+btnDragon.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+container.innerHTML = " ";
+ 
+ 
+for(let i= 0;POTTER.length;i++){
+ 
+
+  container.innerHTML += `<div class="caja">
+  <img src = ${functionDragon(POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionDragon(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${functionDragon(POTTER)[i].species}
+  <li class= "descripcion">House: ${functionDragon(POTTER)[i].house}
+  
+  </div>`
+
+ }
+
+});
+
+//boton filtrar por Phoenix feather
+let btnPhoenix= document.getElementById("phoenix");
+btnPhoenix.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+container.innerHTML = " ";
+ 
+ 
+for(let i= 0;POTTER.length;i++){
+ 
+
+  container.innerHTML += `<div class="caja">
+  <img src = ${functionPhoenix(POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionPhoenix(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${functionPhoenix(POTTER)[i].species}
+  <li class= "descripcion">House: ${functionPhoenix(POTTER)[i].house}
+  
+  </div>`
+
+ }
+
+});
+
+//boton filtrar por Pure-blood
+let btnPure= document.getElementById("pure");
+btnPure.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+container.innerHTML = " ";
+ 
+ 
+for(let i= 0;POTTER.length;i++){
+ 
+
+  container.innerHTML += `<div class="caja">
+  <img src = ${functionPure(POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionPure(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${functionPure(POTTER)[i].species}
+  <li class= "descripcion">House: ${functionPure(POTTER)[i].house}
+  
+  </div>`
+
+ }
+
+});
+
+//boton filtrar por Half-blood
+let btnHalf= document.getElementById("half");
+btnHalf.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+container.innerHTML = " ";
+ 
+ 
+for(let i= 0;POTTER.length;i++){
+ 
+
+  container.innerHTML += `<div class="caja">
+  <img src = ${functionHalf(POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionHalf(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${functionHalf(POTTER)[i].species}
+  <li class= "descripcion">House: ${functionHalf(POTTER)[i].house}
+  
+  </div>`
+
+ }
+
+});
+
+//boton filtrar por Mugleborn
+let btnMuggle= document.getElementById("muggle");
+btnMuggle.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+container.innerHTML = " ";
+ 
+for(let i= 0;POTTER.length;i++){
+ 
+
+  container.innerHTML += `<div class="caja">
+  <img src = ${functionMugle(POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionMugle(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${functionMugle(POTTER)[i].species}
+  <li class= "descripcion">House: ${functionMugle(POTTER)[i].house}
+  
+  </div>`
+
+ }
+
+});
+
+
+
+
+
+
+
+
+
+
+
+//const mostrarJugadores = POTTER.map(POTTER => `${POTTER.name} ${POTTER.house}`);
+
+//const nombres = document.querySelectorAll('name');
+//console.log(nombres);
+
+
+//let btnGriffindor = document.getElementById("btnGriffindor");
+//btnGriffindor.addEventListener("click", mostrarGriffindor);
+
+//function mostrarGriffindor() {
+  //var img = document.createElement("img");
+  //img.src = POTTER.image;
+  //document.getElementById("container").innerHTML = "Hello Harry";
+
+ // console.log(mostrarGriffindor);
+//}
+
+console.log(POTTER);
 
 for (let i=0; i<POTTER.length; i++){
   let newBtn = document.createElement("button");
