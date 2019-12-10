@@ -25,12 +25,13 @@ body {
 .navbar a {
   float: left;
   font-size: 16px;
-  color:transparent;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
- .dropdown {
+
+.dropdown {
   float: left;
   overflow: hidden;
   justify-content: center;
@@ -82,8 +83,7 @@ body {
   display: block;
 }
 
-
-  .filterDiv {
+.filterDiv {
     float: left;
     background-color: #2196F3;
     color: #ffffff;
@@ -92,23 +92,26 @@ body {
     text-align: center;
     margin: 2px;
     display: none; /* Hidden by default */
-  }
+}
 
   /* The "show" class is added to the filtered elements */
 .show {
     display: block;
+    color: rgb(16, 16, 41);
   }
-  .descripcion{
-    display: flex;
-    color: white
 
-  .container {
+.container {
+    border: 1px white;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     justify-content: space-between;
+}
 
-  }
+.caja{
+  border: 1px;
+  color: white;
+ }
 
   .indPtr {
     display: flex;
@@ -116,14 +119,22 @@ body {
     align-items: stretch;
   }
 
-  .imgPotter {
+  .imagenes{
     display: flex;
+    flex-flow: column wrap;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: column;
     height: 25;
     width: 25;
     inline-size: auto;
+    border: rgb(247, 235, 235);
+  }
+
+  .imgPotter {
+    display: flex;
+    height: 25;
+    width: 25;
     }
 
     img{
@@ -131,14 +142,9 @@ body {
       max-height: 220px;
     }
 
-  }
-  .imagenes{
-    display: flex;
-    width: 10%;
-    height: 10%;
-    ;
-  }
-  .caja{
-   border: 1px white;
-  }
+    .descripcion{
+      display: flex;
+      color: white;
+      }
+    
 

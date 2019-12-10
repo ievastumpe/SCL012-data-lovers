@@ -51,6 +51,7 @@ functionMugle(POTTER);
 let btnGriffindor = document.getElementById("btnGriffindor");
 btnGriffindor.addEventListener("click", ()=> {
 let container=document.getElementById("container");
+container.innerHTML = " "
  
 for(let i= 0;POTTER.length;i++){
  
@@ -84,6 +85,10 @@ for(let i= 0;POTTER.length;i++){
   </div>`
 
  }
+
+
+
+ 
 
 });
 
@@ -128,39 +133,6 @@ for(let i= 0;POTTER.length;i++){
 
 });
 
-
-
-
-
-
-
-
-
-
-//const mostrarJugadores = POTTER.map(POTTER => `${POTTER.name} ${POTTER.house}`);
-
-//const nombres = document.querySelectorAll('name');
-//console.log(nombres);
-
-
-//let btnGriffindor = document.getElementById("btnGriffindor");
-//btnGriffindor.addEventListener("click", mostrarGriffindor);
-
-//function mostrarGriffindor() {
-  //var img = document.createElement("img");
-  //img.src = POTTER.image;
-  //document.getElementById("container").innerHTML = "Hello Harry";
-
- // console.log(mostrarGriffindor);
-//}
-
-console.log(POTTER);
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 648d1deec9fbd55ac5c98a1f4da2e9dd2780dc92
 for (let i=0; i<POTTER.length; i++){
   let newBtn = document.createElement("button");
   newBtn.setAttribute("class", "indPtr");
@@ -177,3 +149,21 @@ for (let i=0; i<POTTER.length; i++){
 
   container.appendChild(newBtn);
 }
+
+//boton mostrar todos
+let btnTodos = document.getElementById("Todos");
+btnTodos.addEventListener("click", ()=> {
+let container=document.getElementById("container");
+container.innerHTML = " "
+
+for(let i= 0;POTTER.length;i++){
+  container.innerHTML += `<div class="caja">
+  <img src = ${POTTER[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${(POTTER)[i].name} </br>
+  <li class= "descripcion">Specie: ${(POTTER)[i].species}
+  <li class= "descripcion">House: ${(POTTER)[i].house}
+  
+  </div>`
+
+ }
+});
