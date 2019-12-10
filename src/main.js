@@ -356,44 +356,18 @@ for(let i= 0;POTTER.length;i++){
 
 });
 
-for (let i=0; i<POTTER.length; i++){
-  let newBtn = document.createElement("button");
-  newBtn.setAttribute("class", "indPtr");
-  let newImg = document.createElement("img");
-  let imgPotter = (POTTER[i].image);
-  newImg.setAttribute('src', imgPotter);
-  newImg.setAttribute("class", "imgPotter");
-   
-  newBtn.appendChild(newImg);
-  let nameP = document.createElement("p");
-  let namePotter = document.createTextNode(POTTER[i].name);
-  nameP.appendChild(namePotter);
-  newBtn.appendChild(nameP);
+let container=document.getElementById("container");
 
-  container.appendChild(newBtn);
-}
-
-//newBtn.addEventListener("click", ()=> {
-  //let descripcionPersona = document.createTextNode(POTTER[i].name, POTTER[i].species, POTTER[i].gender, POTTER[i].house,POTTER[i].dateOfBirth, POTTER[i].yearOfBirth, POTTER[i].ancestry,POTTER[i].eyeColour, POTTER[i].hairColour, POTTER[i].wand, POTTER[i].patronus, POTTER[i].actor);
-  //descripcionPersona.appendChild(namePotter);
-
+for(let i=0;POTTER.length;i++){
+  container.innerHTML += `<div class="caja">
+  <img src = ${POTTER[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${(POTTER)[i].name} </br>
+  <li class= "descripcion">Core: ${(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${(POTTER)[i].patronus}
+  <li class= "descripcion">Specie: ${(POTTER)[i].species}
+  <li class= "descripcion">House: ${(POTTER)[i].house}
   
-var modal = document.createElement("myModal"); // create the modal
-var btnModal = document.createElement("btnModal"); // create the button that opens the modal
-var span = document.getElementsByClassName("close")[0]; // Get the <span> element that closes the modal
+  </div>`
 
-container.appendChild(modal);
-modal.appendChild(btnModal);
-
-btnModal.onclick = function() { // When the user clicks the button, open the modal 
-  modal.style.display = "block";
-}
-span.onclick = function() { // When the user clicks on <span> (x), close the modal
-  modal.style.display = "none";
-}
-window.onclick = function(event) { // When the user clicks anywhere outside of the modal, close it
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
 }
 
