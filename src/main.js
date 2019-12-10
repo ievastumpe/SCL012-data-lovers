@@ -51,12 +51,7 @@ functionMugle(POTTER);
 let btnGriffindor = document.getElementById("btnGriffindor");
 btnGriffindor.addEventListener("click", ()=> {
 let container=document.getElementById("container");
-<<<<<<< HEAD
-container.innerHTML = " "
-=======
 container.innerHTML = " ";
- 
->>>>>>> d271253b9b2e6185d1a3945d75e0f70c9ecbcd18
  
 for(let i= 0;POTTER.length;i++){
  
@@ -83,7 +78,7 @@ container.innerHTML = " ";
 for(let i= 0;POTTER.length;i++){
  
 
-  container.innerHTML += `<div class="caja">
+  container.innerHTML = `<div class="caja">
   <img src = ${functionHufflepuff(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionHufflepuff(POTTER)[i].name} </br>
   <li class= "descripcion">Specie: ${functionHufflepuff(POTTER)[i].species}
@@ -379,5 +374,29 @@ for (let i=0; i<POTTER.length; i++){
   newBtn.appendChild(nameP);
 
   container.appendChild(newBtn);
+}
+
+//newBtn.addEventListener("click", ()=> {
+  //let descripcionPersona = document.createTextNode(POTTER[i].name, POTTER[i].species, POTTER[i].gender, POTTER[i].house,POTTER[i].dateOfBirth, POTTER[i].yearOfBirth, POTTER[i].ancestry,POTTER[i].eyeColour, POTTER[i].hairColour, POTTER[i].wand, POTTER[i].patronus, POTTER[i].actor);
+  //descripcionPersona.appendChild(namePotter);
+
+  
+var modal = document.createElement("myModal"); // create the modal
+var btnModal = document.createElement("btnModal"); // create the button that opens the modal
+var span = document.getElementsByClassName("close")[0]; // Get the <span> element that closes the modal
+
+container.appendChild(modal);
+modal.appendChild(btnModal);
+
+btnModal.onclick = function() { // When the user clicks the button, open the modal 
+  modal.style.display = "block";
+}
+span.onclick = function() { // When the user clicks on <span> (x), close the modal
+  modal.style.display = "none";
+}
+window.onclick = function(event) { // When the user clicks anywhere outside of the modal, close it
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
 
