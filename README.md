@@ -2,13 +2,13 @@
 
 ## Índice
 
-* [1. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Parte adicional-opcional (extensión)](#6-parte-adicional-opcional-extensión)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [1. Resumen del proyecto](#1-resumen-del-proyecto)
+* [2. Historias de usuario](#2-historias-de-usuario)
+* [3. Diseño](#3-diseño)
+* [4. UX y feedback de usuarios](#4-UX-y-feedback-de-usuarios)
+* [5. Javascript & DOM](#5-Javascript-&-DOM)
+* [6. Pruebas Unitarias](#6-pruebas-Unitarias)
+* [7. Estrategia de trabajo](#7-estrategia-de-trabajo)
 
 ***
 
@@ -34,7 +34,7 @@ Los datos más relevantes que quieren ver en la interfaz y por qué:
 
 Utilizan o utilizarían el producto cuando quiere obtener información especifica sobre algun de los personajes y depende de criterios de seleccion. 
 
-### Historias de usuario
+### 2. Historias de usuario
 
 Despues de entender las necesidades de tus usuarios, escribimos las Historias
 de Usuario incluiendo la definición de terminado (_definition of done_) y los
@@ -42,7 +42,7 @@ Criterios de Aceptación para cada una.
 
 _Cumple con Definición de Terminado + Criterios de Aceptación_
 
-### 2. Diseño
+### 3. Diseño
 
 Para satisfacer las necesidades del usuario elegimos mostrar los datos en formato simple y bien entendimo:
 
@@ -54,13 +54,13 @@ Despues los prototipos en Figma (pensando en los dos opciones, como para tamaño
 
 Agregamos codigo en CSS para implementar el diseño planeado (maquetación), incluyiendo los principios de diseño visual (contraste, alineación, jerarquía), y también del _flexbox_.
 
-### 3. UX y feedback de usuarios
+### 4. UX y feedback de usuarios
 
 Despues de diseño inicial hablamos con usuarios y entendimos, que necessitamos cambiar imagen del fondo, y aplicamos los cambios necesarios. 
 
 Para obtener el feedback contactamos usuarios potenciales desde pagina Facebook de jugadores. 
 
-### 4. Javascript & DOM
+### 5. Javascript & DOM
 
 Al principio agregamos ES Modules (export, import), 
 Despues experimentamos y aprendimos sobre arrays (filter, map) para entender como aplicarlos. 
@@ -75,22 +75,17 @@ o
 Elegimos el segundo opcion que apareció más rapido y más simple solucion en nuestro caso. 
 
 
-### 5. Pruebas Unitarias (_testing_)
+### 6. Pruebas Unitarias
 
 Despues de hacer los primeros tests, aparecieron errores de tipo semántico. 
 Al primero corregimos estos errores para poder continuar con tests de funciones. 
 Para escibir el codigo de tests, usamos ejemplos del [Jest] (https://jestjs.io/docs/en/using-matchers)
 
-
-
-
-
-### Estrategia de trabajo
+### 7. Estrategia de trabajo
 
 Estrategia de trabajo
 1) individual 
 y de equipo.
-
 
 Regularmente actualizamos nuestro trabajo y subimos al remote Github. 
 Aprendimos y mejoramos nuestra capacidad ejecutar comandos de git (add, commit, pull, status, push)
