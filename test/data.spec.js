@@ -54,9 +54,8 @@ gryffindor[
 
 
   describe('functionGryffindor', () => {
-    expect (typeof functionGryffindor).toBe ('function');    
+    expect (functionGryffindor).toContain ('Gryffindor');    
+    expect(new Set(functionGryffindor)).toContain("Gryffindor");
   });
-
-  it('debería retornar "')
 
 });
