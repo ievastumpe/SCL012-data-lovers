@@ -6,7 +6,7 @@
 * [2. Historias de usuario](#2-historias-de-usuario)
 * [3. Diseño](#3-diseño)
 * [4. UX y feedback de usuarios](#4-UX-y-feedback-de-usuarios)
-* [5. Javascript & DOM](#5-Javascript-&-DOM)
+* [5. Javascript y DOM](#5-Javascript-y-DOM)
 * [6. Pruebas Unitarias](#6-pruebas-Unitarias)
 * [7. Estrategia de trabajo](#7-estrategia-de-trabajo)
 
@@ -47,10 +47,11 @@ _Cumple con Definición de Terminado + Criterios de Aceptación_
 Para satisfacer las necesidades del usuario elegimos mostrar los datos en formato simple y bien entendimo:
 
 Al primero , hicimos sketches en papel:
-![sketch](sketch.png)
+[sketch en papel](scketch.png)
 
 Despues los prototipos en Figma (pensando en los dos opciones, como para tamaño computadora y tamaño de telefono mobile).
-![sketch](prototipo para android.png)
+[figma para android](prototipoParaAndroid.png)
+
 
 Agregamos codigo en CSS para implementar el diseño planeado (maquetación), incluyiendo los principios de diseño visual (contraste, alineación, jerarquía), y también del _flexbox_.
 
