@@ -57,6 +57,6 @@ gryffindor[
     expect (typeof functionGryffindor).toBe ('function');    
   });
 
-  it('debería retornar "')
+ // it('debería retornar "')
 
-});
+//});
