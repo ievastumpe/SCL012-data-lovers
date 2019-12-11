@@ -1,5 +1,6 @@
 // importamos la función `example`
 import { example } from "../src/data";
+import { AssertionError, equal } from "assert";
 
 describe('example', () => {
 
@@ -7,7 +8,9 @@ describe('example', () => {
     expect(typeof example).toBe('function');
   });
 
-  describe('example', () => {
-    // escribe aquí tu test
+  describe('functionGryffindor', () => {
+    expect (typeof functionGryffindor).toBe ('function');    
   });
+
+  it('debería retornar "')
 });

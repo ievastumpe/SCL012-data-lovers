@@ -146,6 +146,9 @@ body {
     .descripcion{
       display: flex;
       color: white;
-      align-items: stretch;
+      width: 90%;
+      word-wrap: wrap;
+
+      
       }
     
