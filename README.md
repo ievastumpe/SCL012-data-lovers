@@ -47,10 +47,10 @@ _Cumple con Definición de Terminado + Criterios de Aceptación_
 Para satisfacer las necesidades del usuario elegimos mostrar los datos en formato simple y bien entendimo:
 
 Al primero , hicimos sketches en papel:
-[sketch en papel](scketch.png)
+![sketch en papel](scketch.png)
 
 Despues los prototipos en Figma (pensando en los dos opciones, como para tamaño computadora y tamaño de telefono mobile).
-[figma para android](prototipoParaAndroid.png)
+![figma para android](prototipoParaAndroid.png)
 
 
 Agregamos codigo en CSS para implementar el diseño planeado (maquetación), incluyiendo los principios de diseño visual (contraste, alineación, jerarquía), y también del _flexbox_.
@@ -61,7 +61,7 @@ Despues de diseño inicial hablamos con usuarios y entendimos, que necessitamos 
 
 Para obtener el feedback contactamos usuarios potenciales desde pagina Facebook de jugadores. 
 
-### 5. Javascript & DOM
+### 5. Javascript y DOM
 
 Al principio agregamos ES Modules (export, import), 
 Despues experimentamos y aprendimos sobre arrays (filter, map) para entender como aplicarlos. 
