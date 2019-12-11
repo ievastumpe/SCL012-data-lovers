@@ -20,11 +20,14 @@ El objetivo principal de este proyecto es diseñar y construir una interfaz web 
 1) Ver los datos de los personajes del juego;
 2) Manipular data a la necessidad filtrar por casa, rol, nucleo o tipo de sangre.
 
+
 Nuestro objetivo era tener la pagina donde el usuario puede visualizar los personajes del juego y filtar por:
 - Casas (Griffindor, Hufflepuff, Ravenclaw, Slyterin);
 - Rol (estudente, personal);
 - Nucleo (unicorn tail-hair, dragon heartstring, phoenix feather);
 - Tipo de sangre (pure-blood, half-blood, muggleborn).
+
+
 Los filtros elegimos por comentarios de usuarios del una investigación hacha por el equipo de Laboratoria. 
 
 Los principales usuarios de producto son: jugadores del Harry Potter: Wizards Unite
@@ -36,9 +39,10 @@ Utilizan o utilizarían el producto cuando quiere obtener información especific
 
 ### 2. Historias de usuario
 
-Despues de entender las necesidades de tus usuarios, escribimos las Historias
-de Usuario incluiendo la definición de terminado (_definition of done_) y los
+Despues de entender las necesidades de tus usuarios, escribimos las Historias de Usuario incluiendo la definición de terminado (_definition of done_) y los
 Criterios de Aceptación para cada una.
+
+![userhistory](historiasDeUsuario.jpg) 
 
 _Cumple con Definición de Terminado + Criterios de Aceptación_
 
@@ -46,7 +50,7 @@ _Cumple con Definición de Terminado + Criterios de Aceptación_
 
 Para satisfacer las necesidades del usuario elegimos mostrar los datos en formato simple y bien entendimo:
 
-Al primero , hicimos sketches en papel:
+Al primero, hicimos sketches en papel:
 
 ![sketch en papel](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/scketch.png?raw=true)
 
