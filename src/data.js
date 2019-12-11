@@ -1,5 +1,5 @@
 // Funcion que muestra los jugadores por casa(Gryffindor)
-export const functionGryffindor = (POTTER) => { 
+export const functionGryffindor=(POTTER) =>{ 
   const filtrarGryffindor = POTTER.filter(POTTER => (POTTER.house=== "Gryffindor" ));
   console.log(filtrarGryffindor);
   return filtrarGryffindor;
