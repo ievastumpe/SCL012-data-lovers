@@ -101,12 +101,14 @@ body {
   }
 
 .container {
-  border: 1px white;
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  flex-flow: wrap;
-  align-content: space-around;
+    border: 1px white;
+    display: flex;
+   flex-direction: row;
+   justify-content: start;
+   flex-flow: wrap ;
+   align-content: space-around;
+   
+   
 }
 
 .caja{
