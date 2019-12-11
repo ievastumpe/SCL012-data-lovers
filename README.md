@@ -17,14 +17,14 @@
 En este proyecto construimos laa página web para visualizar datos de juego [Harry Potter: Wizards Unite](https://www.wizardingworld.com)
 
 El objetivo principal de este proyecto es diseñar y construir una interfaz web donde los ususarios puedan:
-1) ver los datos de los personajes del juego;
-2) manipular data a la necessidad filtrar por casa, rol, nucleo o tipo de sangre.
+1) Ver los datos de los personajes del juego;
+2) Manipular data a la necessidad filtrar por casa, rol, nucleo o tipo de sangre.
 
 Nuestro objetivo era tener la pagina donde el usuario puede visualizar los personajes del juego y filtar por:
-- casas (Griffindor, Hufflepuff, Ravenclaw, Slyterin);
-- rol (estudente, personal);
-- nucleo (unicorn tail-hair, dragon heartstring, phoenix feather);
-- tipo de sangre (pure-blood, half-blood, muggleborn).
+- Casas (Griffindor, Hufflepuff, Ravenclaw, Slyterin);
+- Rol (estudente, personal);
+- Nucleo (unicorn tail-hair, dragon heartstring, phoenix feather);
+- Tipo de sangre (pure-blood, half-blood, muggleborn).
 Los filtros elegimos por comentarios de usuarios del una investigación hacha por el equipo de Laboratoria. 
 
 Los principales usuarios de producto son: jugadores del Harry Potter: Wizards Unite
@@ -47,11 +47,11 @@ _Cumple con Definición de Terminado + Criterios de Aceptación_
 Para satisfacer las necesidades del usuario elegimos mostrar los datos en formato simple y bien entendimo:
 
 Al primero , hicimos sketches en papel:
-![sketch en papel](scketch.png)
+
+![sketch en papel](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/scketch.png?raw=true)
 
 Despues los prototipos en Figma (pensando en los dos opciones, como para tamaño computadora y tamaño de telefono mobile).
-![figma para android](prototipoParaAndroid.png)
-
+![figma para android](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/prototipoParaAndroid.png?raw=true)
 
 Agregamos codigo en CSS para implementar el diseño planeado (maquetación), incluyiendo los principios de diseño visual (contraste, alineación, jerarquía), y también del _flexbox_.
 
@@ -69,9 +69,9 @@ Para correr los datos usamos bucle _for_
 Agregamos funciones a los botones (con addEventListener)
 
 Para funcion de filtrar teniamos dos opciones con que experimentamos:
-1) usar _createElement_ y _appendchild_ para crear objetos de tipo boton y agregar imagen y nombre al este objeto usando appendChild;
+1) Usar _createElement_ y _appendchild_ para crear objetos de tipo boton y agregar imagen y nombre al este objeto usando appendChild;
 o
-2) mostrar las imagenes y texto seleccionado con HTML dinamico (_innerHTML_);
+2) Mostrar las imagenes y texto seleccionado con HTML dinamico (_innerHTML_);
 
 Elegimos el segundo opcion que apareció más rapido y más simple solucion en nuestro caso. 
 
@@ -80,18 +80,14 @@ Elegimos el segundo opcion que apareció más rapido y más simple solucion en n
 
 Despues de hacer los primeros tests, aparecieron errores de tipo semántico. 
 Al primero corregimos estos errores para poder continuar con tests de funciones. 
-Para escibir el codigo de tests, usamos ejemplos del [Jest] (https://jestjs.io/docs/en/using-matchers)
+Para escibir el codigo de tests, usamos ejemplos del [Jest](https://jestjs.io/docs/en/using-matchers/).
 
 ### 7. Estrategia de trabajo
-
-Estrategia de trabajo
-1) individual 
-y de equipo.
 
 Regularmente actualizamos nuestro trabajo y subimos al remote Github. 
 Aprendimos y mejoramos nuestra capacidad ejecutar comandos de git (add, commit, pull, status, push)
 
-Planificamos nuestro trabajo diarmente. Usamos trello.com pero también conversamos frequente para cambiar opiniones, comparar codigo actual o decidir por el proximos pasos. 
+Planificamos nuestro trabajo diarmente. Usamos [Trello](www.trello.com) pero también conversamos frequente para cambiar opiniones, comparar codigo actual o decidir por el proximos pasos. 
 
 A pesar de que estábamos dividiendo las tareas entre nosotras, también cambiamos donde era necesario.
 
