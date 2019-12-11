@@ -1,4 +1,5 @@
 // importamos la función `example`
+
 import { functionGryffindor } from "../src/data";
 gryffindor[
   {
@@ -51,13 +52,11 @@ gryffindor[
   }
 ]
 
-describe('functionGryffindor', () => {
 
-  it('debería ser una función', () => {
-    expect(typeof functionGryffindor).toBe('function');
+  describe('functionGryffindor', () => {
+    expect (typeof functionGryffindor).toBe ('function');    
   });
 
-  //describe('', () => {
-    // escribe aquí tu test
-  //});
+  it('debería retornar "')
+
 });
