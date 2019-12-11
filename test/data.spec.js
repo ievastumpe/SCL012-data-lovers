@@ -1,13 +1,63 @@
 // importamos la función `example`
-import { example } from "../src/data";
+import { functionGryffindor } from "../src/data";
+gryffindor[
+  {
+    name: 'Harry Potter',
+    species: 'human',
+    gender: 'male',
+    house: 'Gryffindor',    
+  },
+  {
+    name: 'Hermione Granger',
+    species: 'human',
+    gender: 'female',
+    house: 'Gryffindor',   
+  },
+  {
+    name: 'Ron Weasley',
+    species: 'human',
+    gender: 'male',
+    house: 'Gryffindor',  
+  },
+  {
+    name: 'Minerva McGonagall',
+    species: 'human',
+    gender: 'female',
+    house: 'Gryffindor',   
+  },
+  {
+    name: 'Rubeus Hagrid',
+    species: 'half-giant',
+    gender: 'male',
+    house: 'Gryffindor',   
+  },
+  {
+    name: 'Neville Longbottom',
+    species: 'human',
+    gender: 'male',
+    house: 'Gryffindor',    
+  },
+  {
+    name: 'Remus Lupin',
+    species: 'werewolf',
+    gender: 'male',
+    house: 'Gryffindor', 
+  },
+  {
+    name: 'Arthur Weasley',
+    species: 'human',
+    gender: 'male',
+    house: 'Gryffindor',
+  }
+]
 
-describe('example', () => {
+describe('functionGryffindor', () => {
 
   it('debería ser una función', () => {
-    expect(typeof example).toBe('function');
+    expect(typeof functionGryffindor).toBe('function');
   });
 
-  describe('example', () => {
+  //describe('', () => {
     // escribe aquí tu test
-  });
+  //});
 });
