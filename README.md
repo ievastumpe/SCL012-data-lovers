@@ -41,12 +41,11 @@ Por esto definimos los objetivos especificos, que son:
 
 ### 2. Historias de usuario
 
-Despues de entender las necesidades de tus usuarios, escribimos las Historias de Usuario incluiendo la definición de terminado (_definition of done_) y los
-Criterios de Aceptación para cada una.
+Despues de entender las necesidades de los usuarios, escribimos las Historias de Usuario:
 
 ![userhistory](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/historiasDeUsuario.png?raw=true) 
 
-Historia Usuario 1:
+Por ejemplo, historia usuario 1:
 
 Yo como : Jugador
 
@@ -79,7 +78,7 @@ Agregamos codigo en CSS para implementar el diseño planeado (maquetación), inc
 
 Despues de diseño inicial hablamos con usuarios y entendimos, que necessitamos cambiar imagen del fondo, y aplicamos los cambios necesarios. 
 
-![paginaweb](paginaweb.png)
+![paginaweb](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/paginaweb.png?raw=true)
 
 Para obtener el feedback contactamos usuarios potenciales desde pagina Facebook de jugadores. 
 
@@ -114,7 +113,7 @@ Planificamos nuestro trabajo diarmente.
 
 2) También conversamos frequente para cambiar opiniones, comparar codigo actual o decidir por el proximos pasos. 
 
-![trello](trello.png)
+![trello](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/trello.png?raw=true)
 
 A pesar de que estábamos dividiendo las tareas entre nosotras, también cambiamos donde era necesario.
 
