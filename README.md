@@ -46,6 +46,13 @@ Criterios de Aceptación para cada una.
 
 ![userhistory](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/historiasDeUsuario.png?raw=true) 
 
+Historia Usuario 1:
+
+Yo como : Jugador
+
+Quiero : Filtrar a los jugadores por casas
+
+Para: Poder saber donde estan sus personajes favoritos.
 
 
 ### 3. Diseño
@@ -72,6 +79,8 @@ Agregamos codigo en CSS para implementar el diseño planeado (maquetación), inc
 
 Despues de diseño inicial hablamos con usuarios y entendimos, que necessitamos cambiar imagen del fondo, y aplicamos los cambios necesarios. 
 
+![paginaweb](paginaweb.png)
+
 Para obtener el feedback contactamos usuarios potenciales desde pagina Facebook de jugadores. 
 
 ### 5. Javascript y DOM
@@ -86,6 +95,8 @@ Para mostrar los objetos filtrados teniamos dos opciones con que experimentamos:
 o
 2) Mostrar las imagenes y texto seleccionado con HTML dinamico (_innerHTML_);
 
+![dos opciones](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/dos%20opciones.png?raw=true)
+
 Elegimos el segundo opcion que apareció más rapido y más simple solucion en nuestro caso. 
 
 
@@ -97,15 +108,19 @@ Para escibir el codigo de tests, usamos ejemplos del [Jest](https://jestjs.io/do
 
 ### 7. Estrategia de trabajo
 
-Regularmente actualizamos nuestro trabajo y subimos al remote Github. 
-Aprendimos y mejoramos nuestra capacidad ejecutar comandos de git (add, commit, pull, status, push)
 
-Planificamos nuestro trabajo diarmente. Usamos [Trello](www.trello.com) pero también conversamos frequente para cambiar opiniones, comparar codigo actual o decidir por el proximos pasos. 
+Planificamos nuestro trabajo diarmente. 
+1) Usamos Trello: https://trello.com/b/V4cpyap1/harry-potter-wizarding-world
+
+2) También conversamos frequente para cambiar opiniones, comparar codigo actual o decidir por el proximos pasos. 
+
+![trello](trello.png)
 
 A pesar de que estábamos dividiendo las tareas entre nosotras, también cambiamos donde era necesario.
 
 
-
+Regularmente actualizamos nuestro trabajo y subimos al remote Github. 
+Mejoramos nuestra capacidad ejecutar comandos de git (add, commit, pull, status, push).
 
 
 
