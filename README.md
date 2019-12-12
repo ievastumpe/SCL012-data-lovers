@@ -14,28 +14,30 @@
 
 ## 1. Resumen del proyecto
 
-En este proyecto construimos laa página web para visualizar datos de juego [Harry Potter: Wizards Unite](https://www.wizardingworld.com)
+En este proyecto construimos la página web para visualizar datos de juego [Harry Potter: Wizards Unite](https://www.wizardingworld.com)
+
+Los principales usuarios de producto son: jugadores del Harry Potter: Wizards Unite.
+
 
 El objetivo principal de este proyecto es diseñar y construir una interfaz web donde los ususarios puedan:
 1) Ver los datos de los personajes del juego;
-2) Manipular data a la necessidad filtrar por casa, rol, nucleo o tipo de sangre.
+2) Filtrar data a la necessidades de jugadores.
 
 
-Nuestro objetivo era tener la pagina donde el usuario puede visualizar los personajes del juego y filtar por:
+Por lo que las características de los personajes ayudan a conocer la historia del mundo mágico (nombre, especie, casa, edad, rol etc.), es importante mostrar esta infromacion del personajes en la pagina.
+
+Los filtros elegimos por comentarios de usuarios del una investigación hacha por el equipo de Laboratoria donde se encuentra que:
+- Antes de ir a una batalla contra un incontratus los usuarios pueden cambiar su varita con nucleo para sentirse más confiados. Los filtros permite seleccionar los personajes por nucleo de varita. 
+- Los personajes de la saga tienen distintos roles como por ejemplo, profesores. Esta característica es importante cuando un mago o bruja elige una profesión, ya que toma de referencia a su personaje favorito. Por ello, es importante para un mago o bruja poder filtrar por esta característica.
+- Los personajes de la saga pertenecen a distintas casas y es importante para un mago o bruja estar en la casa de su personaje favorito.
+
+Por esto definimos los objetivos especificos, que son:
+- La pagina permite al usuario visualizar los personajes del juego y filtar por:
 - Casas (Griffindor, Hufflepuff, Ravenclaw, Slyterin);
 - Rol (estudente, personal);
 - Nucleo (unicorn tail-hair, dragon heartstring, phoenix feather);
 - Tipo de sangre (pure-blood, half-blood, muggleborn).
 
-
-Los filtros elegimos por comentarios de usuarios del una investigación hacha por el equipo de Laboratoria. 
-
-Los principales usuarios de producto son: jugadores del Harry Potter: Wizards Unite
-Los objetivos de estos usuarios en relación con el producto son:
-
-Los datos más relevantes que quieren ver en la interfaz y por qué:
-
-Utilizan o utilizarían el producto cuando quiere obtener información especifica sobre algun de los personajes y depende de criterios de seleccion. 
 
 ### 2. Historias de usuario
 
