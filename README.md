@@ -102,6 +102,10 @@ Despues de hacer los primeros tests, aparecieron errores de tipo semántico.
 Al primero corregimos estos errores para poder continuar con tests de funciones. 
 Para escibir el codigo de tests, usamos ejemplos del [Jest](https://jestjs.io/docs/en/using-matchers/).
 
+![test1](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/test1.png?raw=true)
+
+![test1](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/test2.png?raw=true)
+
 ### 7. Estrategia de trabajo
 
 
