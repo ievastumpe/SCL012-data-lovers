@@ -46,7 +46,7 @@ body {
   outline: none;
   color: white;
   padding: 14px 16px;
-  background-color: rgb(16, 16, 41);
+  background-color: inherit;
   font-family: inherit;
   margin: 0;
   cursor: pointer;
