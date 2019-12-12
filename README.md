@@ -44,9 +44,9 @@ Por esto definimos los objetivos especificos, que son:
 Despues de entender las necesidades de tus usuarios, escribimos las Historias de Usuario incluiendo la definición de terminado (_definition of done_) y los
 Criterios de Aceptación para cada una.
 
-![userhistory](historiasDeUsuario.jpg) 
+![userhistory](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/historiasDeUsuario.png?raw=true) 
 
-_Cumple con Definición de Terminado + Criterios de Aceptación_
+
 
 ### 3. Diseño
 
@@ -56,7 +56,14 @@ Al primero, hicimos sketches en papel:
 
 ![sketch en papel](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/scketch.png?raw=true)
 
-Despues los prototipos en Figma (pensando en los dos opciones, como para tamaño computadora y tamaño de telefono mobile).
+Despues los prototipos en Figma:
+
+1) Para tamaño computadora:
+
+![figma para desktop](https://raw.githubusercontent.com/ievastumpe/SCL012-data-lovers/master/src/Figma_Desktop.png)
+
+2) Tamaño de telefono mobile:
+
 ![figma para android](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/prototipoParaAndroid.png?raw=true)
 
 Agregamos codigo en CSS para implementar el diseño planeado (maquetación), incluyiendo los principios de diseño visual (contraste, alineación, jerarquía), y también del _flexbox_.
@@ -74,7 +81,7 @@ Despues experimentamos y aprendimos sobre arrays (filter, map) para entender com
 Para correr los datos usamos bucle _for_ 
 Agregamos funciones a los botones (con addEventListener)
 
-Para funcion de filtrar teniamos dos opciones con que experimentamos:
+Para mostrar los objetos filtrados teniamos dos opciones con que experimentamos:
 1) Usar _createElement_ y _appendchild_ para crear objetos de tipo boton y agregar imagen y nombre al este objeto usando appendChild;
 o
 2) Mostrar las imagenes y texto seleccionado con HTML dinamico (_innerHTML_);
