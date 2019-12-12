@@ -121,7 +121,7 @@ export default [
     hairColour: 'brown',
     wand: {
       wood: 'ash',
-      core: 'unicorn hair',
+      core: 'unicorn tail-hair',
       length: 12.25,
     },
     patronus: '',

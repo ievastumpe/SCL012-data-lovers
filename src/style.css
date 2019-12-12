@@ -38,7 +38,7 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 30px;  
+  font-size: 30px;
   border: none;
   outline: none;
   color: white;
@@ -54,8 +54,7 @@ body {
 }
 
 .dropdown-content {
-  display: none;
-  
+  display: none; 
   position: absolute;
   background-color: transparent;
   min-width: 160px;
@@ -93,8 +92,7 @@ body {
     margin: 2px;
     display: none; /* Hidden by default */
 }
-
-  /* The "show" class is added to the filtered elements */
+ /* The "show" class is added to the filtered elements */
 .show {
     display: block;
     color: rgb(16, 16, 41);
@@ -105,19 +103,13 @@ body {
     display: flex;
    flex-direction: row;
    justify-content: start;
-   flex-flow: wrap ;
-   align-content: space-around;
-   
-   
+   flex-flow: wrap;
+   align-content: space-around; 
 }
 
 .caja{
- 
   border: 10px;
-  color: white;
-  
-
-  
+  color: white; 
  }
 
   .indPtr {
@@ -149,8 +141,6 @@ body {
       display: flex;
       color: white;
       width: 90%;
-      word-wrap: wrap;
-
-      
+      word-wrap: wrap;  
       }
     
