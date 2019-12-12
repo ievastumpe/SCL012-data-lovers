@@ -21,6 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   justify-content: space-around;
+  float: flex;
 }
 
 .navbar a {
@@ -45,10 +46,11 @@ body {
   outline: none;
   color: white;
   padding: 14px 16px;
-  background-color: inherit;
+  background-color: rgb(16, 16, 41);
   font-family: inherit;
   margin: 0;
   cursor: pointer;
+  float: left;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -111,6 +113,7 @@ body {
 }
 
 .caja{
+  float: left;
   border: 10px;
   color: white; 
  }
@@ -142,3 +145,20 @@ img{
   word-wrap: wrap;
 }
     
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .navbar {
+    width: 80%;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .navbar, .container, .titulo {
+    width: 100%;
+  }
+}
