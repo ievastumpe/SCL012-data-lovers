@@ -209,7 +209,7 @@ describe('functionPhoenix', () => {
      });
 });
 
-// test a la funcion que filtra por Pure- blood
+// test a la funcion que filtra por Pure-blood
 
 import { functionPure } from "../src/data.js";
 
@@ -229,7 +229,7 @@ describe('functionPure', () => {
      });
 });
 
-// test a la funcion que filtra por 
+// test a la funcion que filtra por Half-blood
 
 import { functionHalf } from "../src/data.js";
 
@@ -249,7 +249,7 @@ describe('functionHalf', () => {
      });
 });
 
-// test a la funcion que filtra por 
+// test a la funcion que filtra por Muggleborn
 
 import { functionMugle } from "../src/data.js";
 
