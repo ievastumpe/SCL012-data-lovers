@@ -50,7 +50,7 @@ body {
   font-family: inherit;
   margin: 0;
   cursor: pointer;
-  float: left;
+  
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
