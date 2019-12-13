@@ -80,6 +80,14 @@ Despues de diseño inicial hablemos con usuarios y entendimos, que necessitamos 
 
 ![paginaweb](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/paginaweb.png?raw=true)
 
+Con funcionalidades listas hicimos más tests y recibimos comentarios constructivos y valiosos para mejorar el diseño.
+
+![test_usuario1](test1_Ivan.mp4)
+
+![test_usuario2](test2_Liene.mp4)
+
+![test_usuario3](test3_Zena.mp4)
+
 
 ### 5. Javascript y DOM
 
