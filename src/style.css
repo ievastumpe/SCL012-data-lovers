@@ -109,14 +109,18 @@ body {
   flex-direction: row;
   justify-content: start;
   flex-flow: wrap ;
-  align-content: space-around;   
+  align-content: space-around; 
+  border-color: white;  
 }
 
 .caja{
   float: left;
   border: 10px;
-  color: white; 
- }
+  color: white;
+  background-color: rgb(2, 2, 32); 
+  border: rgb(244, 244, 245) 1px solid;
+  opacity: 0.8;
+}
 
 .imagenes{
   display: flex;
