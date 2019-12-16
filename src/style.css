@@ -41,7 +41,6 @@ body {
   font-family: inherit;
   margin: 0;
   cursor: pointer;
-  
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -85,7 +84,6 @@ body {
   justify-content: start;
   flex-flow: wrap ;
   align-content: space-around;
-   
 }
 
 .caja{
@@ -101,7 +99,6 @@ body {
   justify-content: center;
   height: 220px; 
   margin: auto;
- 
 }
 
 .descripcion{

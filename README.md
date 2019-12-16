@@ -25,7 +25,7 @@ El objetivo principal de este proyecto es diseñar y construir una interfaz web 
 
 Por lo que las características de los personajes ayudan a conocer la historia del mundo mágico (nombre, especie, casa, edad, rol etc.), es importante mostrar esta información del personajes en la pagina.
 
-Los filtros que hemos elegido en este proyecto fue en base a comentarios de usuarios que respeondieron a una investigación hecha por el equipo de Laboratoria donde se encuentra que:
+Los filtros que hemos elegido en este proyecto fue en base a comentarios de usuarios que respondieron a una investigación hecha por el equipo de Laboratoria donde se encuentra que:
 
 - Antes de ir a una batalla contra un incontratus los usuarios pueden cambiar su varita con nucleo para sentirse más confiados. Los filtros permite seleccionar los personajes por nucleo de varita. 
 
@@ -81,6 +81,14 @@ Agregamos codigo en CSS para implementar el diseño planeado (maquetación), inc
 Despues del diseño inicial hablamos con usuarios y entendimos, que necesitamos cambiar imagen de fondo, y aplicamos los cambios necesarios. 
 
 ![paginaweb](https://github.com/ievastumpe/SCL012-data-lovers/blob/master/src/paginaweb.png?raw=true)
+
+Con funcionalidades listas hicimos más tests y recibimos comentarios constructivos y valiosos para mejorar el diseño.
+
+[test_usuario1](https://drive.google.com/drive/u/0/folders/1G-9nbjvOlehU-gzGlP6RsMgnbSuBMyxZ)
+
+[test_usuario2](https://drive.google.com/drive/u/0/folders/1G-9nbjvOlehU-gzGlP6RsMgnbSuBMyxZ)
+
+[test_usuario3](https://drive.google.com/drive/u/0/folders/1G-9nbjvOlehU-gzGlP6RsMgnbSuBMyxZ)
 
 
 ### 5. Javascript y DOM
