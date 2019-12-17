@@ -83,3 +83,12 @@ export const functionMugle = (data) => {
 };
 
 
+// funcion para sort
+export const functionSort = (data) => {
+  const personajes = data.sort(elemento.name);
+  personajes.sort(function(a, b){
+    if(a.name < b.name) { return -1; }
+    if(a.name > b.name) { return 1; }
+    return 0;
+  })
+};

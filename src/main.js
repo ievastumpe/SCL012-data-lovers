@@ -291,17 +291,6 @@ btnMuggle.addEventListener("click", () => {
   }
 });
 
-// boton sort 
-const sortBtn = document.getElementById('sortBtn');
-sortBtn.addEventListener("click", () => {
-  const personajes = [POTTER.name];
-  personajes.sort();
-  document.getElementById('container').innerHTML = personajes;
-})
-
-
-
-
 // mostrar todo en pantalla
 for (let i = 0; POTTER.length; i++) {
 
@@ -316,3 +305,28 @@ for (let i = 0; POTTER.length; i++) {
   </div>`
 }
 
+
+
+
+// boton sort 
+
+import { functionSort } from './data.js';// Importar la función qe está en data.js
+functionSort(POTTER);
+
+const sortBtn = document.getElementById('sortBtn');
+sortBtn.addEventListener("click", () => {
+  const container = document.getElementById('container');
+  container.innerHTML = " ";
+
+  for (let i = 0; POTTER.length; i++) {
+
+    container.innerHTML += `<div class="caja">
+  <img src = ${functionSort(POTTER)[i].image} class= "imagenes">
+  <li class="descripcion" >Name: ${functionSort(POTTER)[i].name}
+  <li class= "descripcion">Specie: ${functionSort(POTTER)[i].species}
+  <li class= "descripcion">House: ${functionSort(POTTER)[i].house}
+  <li class= "descripcion">Core: ${functionSort(POTTER)[i].wand.core}
+  <li class= "descripcion">Patronus: ${functionSort(POTTER)[i].patronus}
+  </div>`
+  }
+});
