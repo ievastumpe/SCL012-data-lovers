@@ -48,7 +48,7 @@ btnGriffindor.addEventListener("click", () => {
   for (let i = 0; POTTER.length; i++) {
 
     container.innerHTML += `<div class="caja">
-  <img src= ${functionGryffindor(POTTER)[i].image} class= "imagenes">
+  <img src=${functionGryffindor(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionGryffindor(POTTER)[i].name}
   <li class= "descripcion">Specie: ${functionGryffindor(POTTER)[i].species}
   <li class= "descripcion">House: ${functionGryffindor(POTTER)[i].house}
