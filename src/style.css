@@ -19,7 +19,6 @@ body {
   overflow: hidden;
   background-color:transparent;
   display: flex;
-  justify-content: space-between;
   justify-content: space-around;
   float: flex; 
 }
@@ -31,7 +30,7 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 30px;
+  font-size: 40px;
   border: none;
   outline: none;
   color: white;
@@ -43,7 +42,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(208, 208, 240);
+  background-color: rgb(17, 17, 73);
 }
 
 .dropdown-content {
@@ -77,8 +76,7 @@ body {
 
 .container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-flow: wrap ;  
 }
 
@@ -87,20 +85,22 @@ body {
   background-color: rgb(2, 2, 32); 
   border: rgb(244, 244, 245) 1px solid;
   opacity: 0.8;
-  width: 15%; 
+  width: 20%;
+  
  }
 
 .imagenes{
   display: flex;
   height: 220px; 
-  margin: auto; 
+  margin: auto;
+  max-width: 180px;
 }
 
 .descripcion{
   display: flex;
   color: white;
   word-wrap: wrap;
-  justify-content: left;
+  justify-content: space-around;
 }
     
 @media only screen and (max-width:800px) {
@@ -115,7 +115,10 @@ body {
   .container {
     width: 100%;
     justify-content: flex-end;
-    margin-top: -40%;
+    margin-top: -47%;
+  }
+  .caja {
+    width: 25%;
   }
 }
 
