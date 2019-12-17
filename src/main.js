@@ -48,7 +48,7 @@ btnGriffindor.addEventListener("click", () => {
   for (let i = 0; POTTER.length; i++) {
 
     container.innerHTML += `<div class="caja">
-  <img src= ${functionGryffindor(POTTER)[i].image} class= "imagenes">
+  <img src=${functionGryffindor(POTTER)[i].image} class= "imagenes">
   <li class="descripcion" >Name: ${functionGryffindor(POTTER)[i].name}
   <li class= "descripcion">Specie: ${functionGryffindor(POTTER)[i].species}
   <li class= "descripcion">House: ${functionGryffindor(POTTER)[i].house}
@@ -291,6 +291,17 @@ btnMuggle.addEventListener("click", () => {
   }
 });
 
+// boton sort 
+const sortBtn = document.getElementById('sortBtn');
+sortBtn.addEventListener("click", () => {
+  const personajes = [POTTER.name];
+  personajes.sort();
+  document.getElementById('container').innerHTML = personajes;
+})
+
+
+
+
 // mostrar todo en pantalla
 for (let i = 0; POTTER.length; i++) {
 
@@ -304,3 +315,4 @@ for (let i = 0; POTTER.length; i++) {
   <li class= "descripcion">Patronus: ${(POTTER)[i].patronus}
   </div>`
 }
+
